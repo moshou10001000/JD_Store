@@ -1,0 +1,20 @@
+[
+  {
+    "name": "EVGA GTX1080 8G FTW ACX 3.0 RGB LED1721-1860MHz/10000MHz 256bit显卡",
+    "price": 5199,
+    "desc": "新一代EVGA ACX 3.0 散热技术，搭载RGB LED设计 ，通过 EVGA Precision XOC重新定义你的游戏！",
+    "imgSrc": "images/xianka01.png"
+  },
+  {
+    "name": "技嘉（GIGABYTE） GTX1080 G1 GAMING 1695-1835MHz/10010MHz 8G/256bit GDDR5X显卡",
+    "price": 4999,
+    "desc": "G1来袭,众卡平身!Pascal全新架构!16nm FinFTE晶体管打造,时隔两年终得架构&制程双进阶!",
+    "imgSrc": "images/xianka02.jpg"
+  },
+  {
+    "name": "迪兰（Dataland）R9 Fury X 4GB HBM 1050/1000MHz 4GB/4096Bit HBM DX12 显卡",
+    "price": 4799,
+    "desc": "强悍小钢炮,VR游戏新体验,AMD HBM新技术",
+    "imgSrc": "images/xianka03.jpg"
+  }
+]

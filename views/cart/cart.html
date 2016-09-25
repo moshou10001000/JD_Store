@@ -1,0 +1,33 @@
+<ion-view view-title="购物车" id="cart-view">
+    <ion-content>
+        <ion-list>
+            <ion-item class="item-avatar item-text-wrap" ng-repeat="product in cart">
+                <img ng-src="{{product.item.imgSrc}}" alt="">
+                <h2>{{product.item.name}}</h2>
+                <p align="right">单价：{{product.item.price | currency:"￥"}}</p>
+                <p align="right">
+                    <span class="button-xs" ng-click="core.updateProduct(product,false)">-</span>
+                    <input type="text" ng-model="product.quantity" class="quantityInput">
+                    <span class="button-xs" ng-click="core.updateProduct(product,true)">+</span>
+                </p>
+                <p align="right">小计：{{product.item.price*product.quantity | currency:"￥"}}</p>
+                <p align="right" ng-click="core.deleteProduct(product.item)">删除</p>
+            </ion-item>
+            <ion-item class="row">
+                <div class="col-20 col-offset-50 text-right">商品总价：</div>
+                <div class="col-25" align="right">{{allProductPrice() | currency:"￥"}}</div>
+            </ion-item>
+            <ion-item class="row">
+                <div class="col-20 col-offset-50 text-right">运费：</div>
+                <div class="col-25" align="right">{{freight() | currency:"￥"}}</div>
+            </ion-item>
+            <ion-item class="row">
+                <div class="col-20 col-offset-50 text-right">应付金额：</div>
+                <div class="col-25" align="right">{{allProductPrice()+freight() | currency:"￥"}}</div>
+            </ion-item>
+        </ion-list>
+        <div align="right">
+            <button class="button button-royal" ui-sref="tabs.order">提交订单</button>
+        </div>
+    </ion-content>
+</ion-view>

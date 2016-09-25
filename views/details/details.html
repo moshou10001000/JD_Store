@@ -1,0 +1,17 @@
+<ion-view view-title="商品详情">
+    <ion-nav-buttons side="left">
+        <button class="button button-clear button-icon ion-android-home" ui-sref="tabs.home"></button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <button class="button button-clear button-icon ion-search"></button>
+    </ion-nav-buttons>
+    <ion-content>
+        <div><img ng-src="{{productDetail.imgSrc}}" alt="" style="width: 100%"></div>
+        <ion-list>
+            <ion-item class="item-text-wrap">{{productDetail.name}}</ion-item>
+            <ion-item class="item-text-wrap">{{productDetail.desc}}</ion-item>
+            <ion-item class="item-text-wrap">{{productDetail.price | currency:"￥"}}</ion-item>
+            <ion-item align="right"><button class="button button-assertive" ng-click="core.addProduct(productDetail)">加入购物车</button></ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

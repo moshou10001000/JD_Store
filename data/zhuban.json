@@ -1,0 +1,32 @@
+[
+  {
+    "name": "技嘉（GIGABYTE）Z170MX-Gaming 5主板 (Intel Z170/LGA 1151)",
+    "price": 1499,
+    "desc": "杀手游戏网卡,Intel usb3.1芯片,大型散热片,魔音设计+LED呼吸灯,高端电竞小板!",
+    "imgSrc": "images/Z170M-Gaming.jpg"
+  },
+  {
+    "name": "技嘉（GIGABYTE）H170M-D3H主板 (Intel H170/LGA 1151)",
+    "price": 799,
+    "desc": "支持DDR4/全高清显示接口/超耐久用料,技嘉好品质!支持高速M.2&SATA-E磁盘接口",
+    "imgSrc": "images/H170M-D3H.jpg"
+  },
+  {
+    "name": "技嘉（GIGABYTE）G1.Sniper M7主板 (Intel B150/LGA 1151)",
+    "price": 799,
+    "desc": "为游戏而生!M.2 SSD+M.2 WIFI插槽,信仰LED呼吸灯!Intel千兆网卡助你告别延迟!",
+    "imgSrc": "images/B150M-M7.jpg"
+  },
+  {
+    "name": "技嘉（GIGABYTE）B150M-D3H主板 (Intel B150/LGA 1151)",
+    "price": 599,
+    "desc": "技嘉主板表率!人气D3H升级版,原生M.2接口!散热加强/5相数字供电,全高清显示输出!",
+    "imgSrc": "images/B150M-D3H.jpg"
+  },
+  {
+    "name": "技嘉（GIGABYTE）X150M-PRO ECC主板 (Intel C232/LGA 1151)",
+    "price": 849,
+    "desc": "支持新一代E3 V5处理器,支持ECC模式内存,酷冷迷彩散热设计,搭配高速M.2插槽,更酷更快!",
+    "imgSrc": "images/X150M-PRO.jpg"
+  }
+]

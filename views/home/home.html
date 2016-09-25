@@ -1,0 +1,64 @@
+<ion-view view-title="主页" id="home-view">
+    <ion-nav-buttons side="left">
+        <button class="button button-clear button-icon ion-qr-scanner"></button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <button class="button button-clear button-icon ion-search"></button>
+    </ion-nav-buttons>
+    <ion-content>
+        <ion-slide-box auto-play="true" does-continue="true">
+            <ion-slide><img src="images/mainBanner01.jpg" alt="广告1"></ion-slide>
+            <ion-slide><img src="images/mainBanner02.jpg" alt="广告2"></ion-slide>
+            <ion-slide><img src="images/mainBanner03.jpg" alt="广告3"></ion-slide>
+            <ion-slide><img src="images/mainBanner04.jpg" alt="广告4"></ion-slide>
+            <ion-slide><img src="images/mainBanner05.jpg" alt="广告5"></ion-slide>
+        </ion-slide-box>
+        <div class="icon-list">
+            <div class="row">
+                <div class="col-20 categoryBox light" ui-sref="tabs.products" ng-click="getProductsList('cpu')">
+                    <img src="images/cpuIcon.jpg" alt="cpu"><span>CPU</span>
+                </div>
+                <div class="col-20 categoryBox light" ui-sref="tabs.products" ng-click="getProductsList('zhuban')">
+                    <img src="images/zhubanIcon.jpg" alt="zhuban">主板
+                </div>
+                <div class="col-20 categoryBox light" ui-sref="tabs.products" ng-click="getProductsList('neicun')">
+                    <img src="images/neicunIcon.jpg" alt="neicun">内存
+                </div>
+                <div class="col-20 categoryBox light" ui-sref="tabs.products" ng-click="getProductsList('xianka')">
+                    <img src="images/xiankaIcon.jpg" alt="xianka">显卡
+                </div>
+                <div class="col-20 categoryBox light" ui-sref="tabs.products" ng-click="getProductsList('yingpan')">
+                    <img src="images/yingpanIcon.jpg" alt="yingpan">硬盘
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-20 categoryBox light" ui-sref="tabs.products" ng-click="getProductsList('yinxiang')">
+                    <img src="images/yinxiangIcon.jpg" alt="yinxiang">音响
+                </div>
+                <div class="col-20 categoryBox light" ui-sref="tabs.products" ng-click="getProductsList('jixiang')">
+                    <img src="images/jixiangIcon.jpg" alt="jixiang">机箱
+                </div>
+                <div class="col-20 categoryBox light" ui-sref="tabs.products" ng-click="getProductsList('dianyuan')">
+                    <img src="images/dianyuanIcon.jpg" alt="dianyuan">电源
+                </div>
+                <div class="col-20 categoryBox light" ui-sref="tabs.products" ng-click="getProductsList('xianshiqi')">
+                    <img src="images/xianshiqiIcon.jpg" alt="xianshiqi">显示器
+                </div>
+                <div class="col-20 categoryBox light" ui-sref="tabs.products" ng-click="getProductsList('jianshu')">
+                    <img src="images/jianshuIcon.jpg" alt="jianshu">键鼠
+                </div>
+            </div>
+        </div>
+        <div class="icon-bg">
+            <img src="images/iconBg.jpg" alt="">
+            <img src="images/iconLogo.jpg" alt="">
+        </div>
+        <ion-slide-box auto-play="true" does-continue="true" style="margin-top: -5px">
+            <ion-slide><img src="images/mainBanner01.jpg" alt="广告1"></ion-slide>
+            <ion-slide><img src="images/mainBanner02.jpg" alt="广告2"></ion-slide>
+            <ion-slide><img src="images/mainBanner03.jpg" alt="广告3"></ion-slide>
+            <ion-slide><img src="images/mainBanner04.jpg" alt="广告4"></ion-slide>
+            <ion-slide><img src="images/mainBanner05.jpg" alt="广告5"></ion-slide>
+        </ion-slide-box>
+    </ion-content>
+</ion-view>

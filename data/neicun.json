@@ -1,0 +1,32 @@
+[
+  {
+    "name": "金士顿(Kingston)DDR4 2133 8GB 台式机内存",
+    "price": 249,
+    "desc": "【浓情奥运，不买也能抽礼品】UV400系列SSD，颠覆以往性能，轻松升级电脑",
+    "imgSrc": "images/neicun01.jpg"
+  },
+  {
+    "name": "威刚(ADATA)DDR4 2133 8GB 台式机内存",
+    "price": 239,
+    "desc": "台湾制造，耐久稳定，游戏办公皆出色",
+    "imgSrc": "images/neicun02.jpg"
+  },
+  {
+    "name": "十铨（Team） DDR4 2133 8GB 台式机内存",
+    "price": 219,
+    "desc": "【严守品质，铸造品牌】严选优质颗粒，打造稳定、高效的电脑配件，用品质去塑造品牌！",
+    "imgSrc": "images/neicun03.jpg"
+  },
+  {
+    "name": "芝奇(G.SKILL) AEGIS系列 DDR4 2133频率 8G 台式机内存(黑红色)",
+    "price": 199,
+    "desc": "【限时限量，随时叫停】『芝奇品质，坚持淬炼不凡！』现在开始体验DDR4所带来的效能冲击吧!!!",
+    "imgSrc": "images/neicun04.jpg"
+  },
+  {
+    "name": "光威(Gloway)内存条DDR4 8GB 2133台式机内存条",
+    "price": 236,
+    "desc": "内存精选颗粒，打造高效、稳定的电脑配件",
+    "imgSrc": "images/neicun05.jpg"
+  }
+]

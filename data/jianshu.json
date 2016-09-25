@@ -1,0 +1,20 @@
+[
+  {
+    "name": "雷蛇（Razer）二角尘蛛+地狱狂蛇 游戏键鼠套装",
+    "price": 199,
+    "desc": "雷蛇游戏键鼠套装，一心为了游戏",
+    "imgSrc": "images/jianshu01.jpg"
+  },
+  {
+    "name": "罗技（Logitech）无线键鼠套装 MK240（白色）",
+    "price": 99,
+    "desc": "迷你气质套装，彰显年轻活力！",
+    "imgSrc": "images/jianshu02.jpg"
+  },
+  {
+    "name": "樱桃（Cherry）MX-BOARD 2.0C G80-3802机械键盘 黑色 青轴",
+    "price": 459,
+    "desc": "德国机械键盘开创品牌，使用寿命彰显出自己。高键帽是一种选择",
+    "imgSrc": "images/jianshu03.jpg"
+  }
+]

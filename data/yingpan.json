@@ -1,0 +1,20 @@
+[
+  {
+    "name": "西部数据(WD)蓝盘 1TB SATA6Gb/s 7200转64M 台式机硬盘(WD10EZEX)",
+    "price": 329,
+    "desc": "【8月特惠周】西部数据（WD）+闪迪（SinDisk）选两类满500减30、满800减60、满1000减100。",
+    "imgSrc": "images/yingpan01.jpg"
+  },
+  {
+    "name": "希捷(SEAGATE)1TB 7200转64M SATA3 台式机硬盘(ST1000DM003)",
+    "price": 329,
+    "desc": "希捷酷鱼系列荣耀首发，预售10元定金抵50元，更有评价返30元E卡！！",
+    "imgSrc": "images/yingpan02.jpg"
+  },
+  {
+    "name": "饥饿鲨(TOSHIBA) TR150 游戏系列 240G 固态硬盘",
+    "price": 449,
+    "desc": "Toshiba旗下高端品牌，新老包装随机发货，性能参数均不变",
+    "imgSrc": "images/yingpan03.jpg"
+  }
+]

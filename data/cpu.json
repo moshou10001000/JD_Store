@@ -1,0 +1,62 @@
+[
+  {
+    "name": "英特尔（Intel）酷睿四核 i7-6700k 1151接口 盒装CPU处理器",
+    "price": 2599,
+    "desc": "Skylake架构，14nm工艺，支持DDR4，功耗更低，性能更强",
+    "imgSrc": "images/i7 6700K.jpg"
+  },
+  {
+    "name": "英特尔（Intel）酷睿四核 i7-6700 1151接口 盒装CPU处理器",
+    "price": 2299,
+    "desc": "全新Skylake架构，14nm工艺，支持DDR4，功耗更低，性能更强",
+    "imgSrc": "images/i7 6700.jpg"
+  },
+  {
+    "name": "英特尔（Intel）酷睿四核 i5-6600K 1151接口 盒装CPU处理器",
+    "price": 1749,
+    "desc": "Skylake平台，全新LGA 1151接口，支持DDR4",
+    "imgSrc": "images/i5 6600K.jpg"
+  },
+  {
+    "name": "英特尔（Intel）酷睿四核 i5-6600 1151接口 盒装CPU处理器",
+    "price": 1629,
+    "desc": "Skylake平台，全新LGA 1151接口，支持DDR4",
+    "imgSrc": "images/i5 6600.jpg"
+  },
+  {
+    "name": "英特尔（Intel）酷睿四核 i5-6500 1151接口 盒装CPU处理器",
+    "price": 1479,
+    "desc": "Skylake平台，全新LGA 1151接口，支持DDR4",
+    "imgSrc": "images/i5 6500.jpg"
+  },
+  {
+    "name": "英特尔（Intel）酷睿四核 i5-6400 1151接口 盒装CPU处理器",
+    "price": 1329,
+    "desc": "Skylake平台，全新LGA 1151接口，支持DDR4",
+    "imgSrc": "images/i5 6400.jpg"
+  },
+  {
+    "name": "英特尔（Intel）酷睿四核 i3-6300 1151接口 盒装CPU处理器",
+    "price": 1049,
+    "desc": "Skylake平台，全新LGA 1151接口，支持DDR4",
+    "imgSrc": "images/i3 6300.jpg"
+  },
+  {
+    "name": "英特尔（Intel）酷睿四核 i3-6100 1151接口 盒装CPU处理器",
+    "price": 829,
+    "desc": "Skylake平台，全新LGA 1151接口，支持DDR4",
+    "imgSrc": "images/i3 6100.jpg"
+  },
+  {
+    "name": "英特尔（Intel）奔腾双核 G4400 1151接口 盒装CPU处理器",
+    "price": 409,
+    "desc": "LGA 1151接口，支持DDR4，功耗更低，性能更强",
+    "imgSrc": "images/G4400.jpg"
+  },
+  {
+    "name": "英特尔（Intel）赛扬双核 G3900 1151接口 盒装CPU处理器",
+    "price": 249,
+    "desc": "LGA 1151接口，支持DDR4，功耗更低，性能更强",
+    "imgSrc": "images/G3900.jpg"
+  }
+]

@@ -1,0 +1,27 @@
+<ion-view view-title="提交订单">
+    <ion-content>
+        <div class="list list-inset" >
+            <div class="item item-input">
+                <span class="input-label">收件人：</span>
+                <input type="text" placeholder="您的姓名" ng-model="data.username">
+            </div>
+            <div class="item item-input">
+                <span class="input-label">地址：</span>
+                <input type="text" placeholder="您的地址" ng-model="data.address">
+            </div>
+            <div class="item item-input">
+                <span class="input-label">联系电话：</span>
+                <input type="tel" placeholder="您的电话" ng-model="data.tel">
+            </div>
+            <div class="item item-input">
+                <span class="input-label">E-mail：</span>
+                <input type="text" placeholder="您的邮箱" ng-model="data.email">
+            </div>
+            <div class="item">
+                <div class="button button-full button-calm"
+                     ui-sref="tabs.payment"
+                     ng-disabled="!data.username || !data.address || !data.tel || !data.email">立即支付</div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

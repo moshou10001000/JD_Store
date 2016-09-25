@@ -1,0 +1,18 @@
+<ion-view view-title="商品列表">
+    <ion-nav-buttons side="left">
+        <button class="button button-clear button-icon ion-android-home" ui-sref="tabs.home"></button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <button class="button button-clear button-icon ion-search"></button>
+    </ion-nav-buttons>
+    <ion-content>
+        <ion-list>
+            <ion-item class="item-thumbnail-left item-text-wrap" ui-sref="tabs.details" ng-repeat="product in products" ng-click="skip($index)">
+                <img ng-src="{{product.imgSrc}}" alt="">
+                <h2>{{product.name}}</h2>
+                <p style="color: red">{{product.desc}}</p>
+                <p align="right" style="font-size: 1.5em">{{product.price | currency:"￥"}}</p>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

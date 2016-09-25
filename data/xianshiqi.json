@@ -1,0 +1,20 @@
+[
+  {
+    "name": "戴尔（DELL） P2314H 23英寸旋转升降IPS屏显示器",
+    "price": 1199,
+    "desc": "旋转升降支架，IPS广视角硬屏，DP+DVI+VGA+4USB超多接口！3年免费上门更换，好品质好售后，买戴尔就对了！",
+    "imgSrc": "images/xianshiqi01.jpg"
+  },
+  {
+    "name": "三星（SAMSUNG）S23C650D 23英寸LED背光宽屏商用液晶显示器",
+    "price": 1299,
+    "desc": "【23英寸PLS广视角显示器！】三星商用显示器享三年质保！企业客户售后问题可拨打4006105858进行咨询！",
+    "imgSrc": "images/xianshiqi02.jpg"
+  },
+  {
+    "name": "惠普（HP) Z23i 23英寸全新节能型IPS Gen2面板宽屏LED背光液晶显示器",
+    "price": 1099,
+    "desc": "23英寸专业级IPS广视角，画面柔和，色彩细腻，人体工程学升降旋转底座，办公/设计优选！",
+    "imgSrc": "images/xianshiqi03.jpg"
+  }
+]

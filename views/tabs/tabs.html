@@ -1,0 +1,22 @@
+<ion-tabs class="tabs-dark tabs-icon-top">
+    <ion-tab title="Home"
+             icon-on="ion-ios-home"
+             icon-off="ion-ios-home-outline"
+             ui-sref="tabs.home">
+        <ion-nav-view name="tabs-home"></ion-nav-view>
+    </ion-tab>
+    <!--<ion-tab title="Find"
+             icon-on="ion-ios-clock"
+             icon-off="ion-ios-clock-outline"
+             ui-sref="tabs.about">
+        <ion-nav-view name="tabs-find"></ion-nav-view>
+    </ion-tab>-->
+    <ion-tab title="Cart"
+             icon-on="ion-ios-cart"
+             icon-off="ion-ios-cart-outline"
+             badge="allProductQuantity()"
+             badge-style="badge-assertive"
+             ui-sref="tabs.cart">
+        <ion-nav-view name="tabs-cart"></ion-nav-view>
+    </ion-tab>
+</ion-tabs>

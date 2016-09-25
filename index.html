@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="lib/ionic/css/ionic.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="lib/ionic/js/ionic.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="views/tabs/tabs.js"></script>
+    <script src="views/home/home.js"></script>
+    <script src="views/products/products.js"></script>
+    <script src="views/details/details.js"></script>
+    <script src="views/cart/cart.js"></script>
+    <script src="views/order/order.js"></script>
+    <script src="views/payment/payment.js"></script>
+    <script src="views/tour/tour.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+<ion-side-menus>
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar-dark">
+            <ion-nav-back-button class="button button-clear button-icon ion-android-arrow-back"></ion-nav-back-button>
+        </ion-nav-bar>
+        <ion-nav-view></ion-nav-view>
+    </ion-side-menu-content>
+    <ion-side-menu>
+        <div class="bar bar-header bar-dark">
+            <h1 class="title">登录</h1>
+        </div>
+        <div class="has-header has-footer scroll-content padding overflow-scroll">
+            <div class="list list-inset">
+                <div class="item item-input">
+                    <span class="input-label col-25 text-right">用户名：</span>
+                    <input type="email" placeholder="用户名" ng-model="data.email">
+                </div>
+                <div class="item item-input">
+                    <span class="input-label col-25 text-right">密码：</span>
+                    <input type="password" ng-minlength="6" placeholder="密码" ng-model="data.password">
+                </div>
+                <div class="button button-full button-calm" ng-disabled="!data.email || !data.password">登录</div>
+                <div class="text-center">没有账号？<a href="#">点击注册</a></div>
+            </div>
+        </div>
+    </ion-side-menu>
+</ion-side-menus>
+
+</body>
+</html>
